@@ -12,6 +12,6 @@ bot.on("message", function(message) {
     if (message.content == "hello")
         message.channel.sendMessage("Hi, there!");
     }
-,);
+});
 
 client.login(process.env.BOT_TOKEN);
